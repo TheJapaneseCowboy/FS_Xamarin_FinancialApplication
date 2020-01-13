@@ -16,5 +16,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="MyPage.cs" />
+    <Compile Remove="DashBoardPage.cs" />
   </ItemGroup>
 </Project>

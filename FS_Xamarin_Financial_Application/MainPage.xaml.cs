@@ -20,7 +20,9 @@ namespace FS_Xamarin_Financial_Application
 
         void Handle_Clicked(object sender, System.EventArgs e)
         {
+            //await Navigation.PushAsync(new NavigationPage(DashBoardPage()));
             Navigation.PushAsync(new DashBoardPage());
+
         }
     }
 }

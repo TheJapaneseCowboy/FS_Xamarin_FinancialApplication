@@ -1,4 +1,4 @@
-﻿using System;
+﻿    using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,10 +10,12 @@ namespace FS_Xamarin_Financial_Application
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            //MainPage = new MainPage();
+            MainPage = new NavigationPage(new MainPage());
+
         }
 
-        protected override void OnStart()
+    protected override void OnStart()
         {
         }
 
